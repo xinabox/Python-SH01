@@ -1,2 +1,2 @@
-# Python-XCHIP
-Template for python libraries
+# Python-SH01
+Capacitive touch sensor
