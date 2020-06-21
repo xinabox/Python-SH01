@@ -4,13 +4,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xinabox-SH01",
-    version="0.0.2",
+    version="0.0.3",
     author="Luqmaan Baboo",
     author_email="luqmaanbaboo@gmail.com",
     description="Capacitive touch sensor",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/xinabox/Python-SH01",
+    install_requires=["xinabox-CORE",],
     py_modules=["xSH01",],
     packages=setuptools.find_packages(),
     classifiers=[
