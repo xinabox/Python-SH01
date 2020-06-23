@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xinabox-SH01",
-    version="0.0.3",
+    version="0.0.4",
     author="Luqmaan Baboo",
     author_email="luqmaanbaboo@gmail.com",
     description="Capacitive touch sensor",
